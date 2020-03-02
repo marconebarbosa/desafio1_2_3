@@ -38,35 +38,37 @@ public class TestDesafio2 extends BaseTest {
     @Test
     public void validaBuscaDeFilmeSemInformarApiKey(){
         given()
-                .when()
-                .get("/?i="+ ID_DO_FILME)
-                .then()
-                .statusCode(401)
-                .body("Response", is("False"))
-                .body("Error", is("No API key provided."))
+        .when()
+            .get("/?i="+ ID_DO_FILME)
+        .then()
+            .statusCode(401)
+            .body("Response", is("False"))
+            .body("Error", is("No API key provided."))
         ;
     }
 
     @Test
     public void validaBuscaDeFilmeSemInformarIdDoFilme(){
         given()
-                .when()
-                .get("/?apikey="+ API_KEY)
-                .then()
-                .statusCode(200)
-                .body("Response", is("False"))
-                .body("Error", is("Something went wrong."))
+        .when()
+            .get("/?apikey="+ API_KEY)
+        .then()
+            .statusCode(200)
+            .body("Response", is("False"))
+            .body("Error", is("Something went wrong."))
         ;
     }
 
     @Test
     public void validaSchemaJson(){
         given()
+            .log().all()
         .when()
-                .get("/?i=" + ID_DO_FILME + "&apikey=" + API_KEY)
+            .get("/?i=" + ID_DO_FILME + "&apikey=" + API_KEY)
         .then()
+            .log().all()
             .statusCode(200)
-            .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("src/test/resources/testApi/ValidaSchema.json"))
+            .body(JsonSchemaValidator.matchesJsonSchemaInClasspath("ValidaSchema.json"))
         ;
     }
 }
