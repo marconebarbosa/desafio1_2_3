@@ -1,0 +1,330 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "required": [
+    "Title",
+    "Year",
+    "Rated",
+    "Released",
+    "Runtime",
+    "Genre",
+    "Director",
+    "Writer",
+    "Actors",
+    "Plot",
+    "Language",
+    "Country",
+    "Awards",
+    "Poster",
+    "Ratings",
+    "Metascore",
+    "imdbRating",
+    "imdbVotes",
+    "imdbID",
+    "Type",
+    "DVD",
+    "BoxOffice",
+    "Production",
+    "Website",
+    "Response"
+  ],
+  "properties": {
+    "Title": {
+      "$id": "#/properties/Title",
+      "type": "string",
+      "title": "The Title Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "The Social Network"
+      ]
+    },
+    "Year": {
+      "$id": "#/properties/Year",
+      "type": "string",
+      "title": "The Year Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "2010"
+      ]
+    },
+    "Rated": {
+      "$id": "#/properties/Rated",
+      "type": "string",
+      "title": "The Rated Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "PG-13"
+      ]
+    },
+    "Released": {
+      "$id": "#/properties/Released",
+      "type": "string",
+      "title": "The Released Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "01 Oct 2010"
+      ]
+    },
+    "Runtime": {
+      "$id": "#/properties/Runtime",
+      "type": "string",
+      "title": "The Runtime Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "120 min"
+      ]
+    },
+    "Genre": {
+      "$id": "#/properties/Genre",
+      "type": "string",
+      "title": "The Genre Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Biography, Drama"
+      ]
+    },
+    "Director": {
+      "$id": "#/properties/Director",
+      "type": "string",
+      "title": "The Director Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "David Fincher"
+      ]
+    },
+    "Writer": {
+      "$id": "#/properties/Writer",
+      "type": "string",
+      "title": "The Writer Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Aaron Sorkin (screenplay), Ben Mezrich (book)"
+      ]
+    },
+    "Actors": {
+      "$id": "#/properties/Actors",
+      "type": "string",
+      "title": "The Actors Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Jesse Eisenberg, Rooney Mara, Bryan Barter, Dustin Fitzsimons"
+      ]
+    },
+    "Plot": {
+      "$id": "#/properties/Plot",
+      "type": "string",
+      "title": "The Plot Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea, and by the co-founder who was later squeezed out of the business."
+      ]
+    },
+    "Language": {
+      "$id": "#/properties/Language",
+      "type": "string",
+      "title": "The Language Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "English, French"
+      ]
+    },
+    "Country": {
+      "$id": "#/properties/Country",
+      "type": "string",
+      "title": "The Country Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "USA"
+      ]
+    },
+    "Awards": {
+      "$id": "#/properties/Awards",
+      "type": "string",
+      "title": "The Awards Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Won 3 Oscars. Another 169 wins & 179 nominations."
+      ]
+    },
+    "Poster": {
+      "$id": "#/properties/Poster",
+      "type": "string",
+      "title": "The Poster Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "https://m.media-amazon.com/images/M/MV5BOGUyZDUxZjEtMmIzMC00MzlmLTg4MGItZWJmMzBhZjE0Mjc1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+      ]
+    },
+    "Ratings": {
+      "$id": "#/properties/Ratings",
+      "type": "array",
+      "title": "The Ratings Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": [],
+      "items": {
+        "$id": "#/properties/Ratings/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "description": "An explanation about the purpose of this instance.",
+        "default": {},
+        "examples": [
+          {
+            "Source": "Internet Movie Database",
+            "Value": "7.7/10"
+          },
+          {
+            "Source": "Rotten Tomatoes",
+            "Value": "96%"
+          },
+          {
+            "Source": "Metacritic",
+            "Value": "95/100"
+          }
+        ],
+        "required": [
+          "Source",
+          "Value"
+        ],
+        "properties": {
+          "Source": {
+            "$id": "#/properties/Ratings/items/properties/Source",
+            "type": "string",
+            "title": "The Source Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "Internet Movie Database"
+            ]
+          },
+          "Value": {
+            "$id": "#/properties/Ratings/items/properties/Value",
+            "type": "string",
+            "title": "The Value Schema",
+            "description": "An explanation about the purpose of this instance.",
+            "default": "",
+            "examples": [
+              "7.7/10"
+            ]
+          }
+        }
+      }
+    },
+    "Metascore": {
+      "$id": "#/properties/Metascore",
+      "type": "string",
+      "title": "The Metascore Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "95"
+      ]
+    },
+    "imdbRating": {
+      "$id": "#/properties/imdbRating",
+      "type": "string",
+      "title": "The Imdbrating Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "7.7"
+      ]
+    },
+    "imdbVotes": {
+      "$id": "#/properties/imdbVotes",
+      "type": "string",
+      "title": "The Imdbvotes Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "587,466"
+      ]
+    },
+    "imdbID": {
+      "$id": "#/properties/imdbID",
+      "type": "string",
+      "title": "The Imdbid Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "tt1285016"
+      ]
+    },
+    "Type": {
+      "$id": "#/properties/Type",
+      "type": "string",
+      "title": "The Type Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "movie"
+      ]
+    },
+    "DVD": {
+      "$id": "#/properties/DVD",
+      "type": "string",
+      "title": "The Dvd Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "11 Jan 2011"
+      ]
+    },
+    "BoxOffice": {
+      "$id": "#/properties/BoxOffice",
+      "type": "string",
+      "title": "The Boxoffice Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "$96,400,000"
+      ]
+    },
+    "Production": {
+      "$id": "#/properties/Production",
+      "type": "string",
+      "title": "The Production Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Columbia Pictures"
+      ]
+    },
+    "Website": {
+      "$id": "#/properties/Website",
+      "type": "string",
+      "title": "The Website Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "N/A"
+      ]
+    },
+    "Response": {
+      "$id": "#/properties/Response",
+      "type": "string",
+      "title": "The Response Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "True"
+      ]
+    }
+  }
+}
