@@ -1,4 +1,4 @@
-package testApi;
+package apiTest;
 
 import io.restassured.module.jsv.JsonSchemaValidator;
 import org.junit.Test;

@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+
         <!--INÍCIO - Dependencias teste de UNIDADE / SERVIÇO/API / GUI-->
         <dependency>
             <groupId>junit</groupId>
@@ -16,6 +17,37 @@
             <version>4.12</version>
         </dependency>
         <!--FIM - Dependencias teste de UNIDADE / SERVIÇO-API / GUI-->
+
+        <!--INÍCIO - Dependencias teste de GUI-->
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>1.2.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-core</artifactId>
+            <version>1.2.5</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>gherkin</artifactId>
+            <version>4.1.3</version>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-jvm-deps</artifactId>
+            <version>1.0.6</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!--FIM - Dependencias teste de GUI-->
 
         <!--INÍCIO - Dependencias teste de SERVIÇO-API-->
         <dependency>
@@ -36,7 +68,7 @@
             <version>2.8.5</version>
             <scope>test</scope>
         </dependency>
-
         <!--FIM - Dependencias teste de SERVIÇO-API-->
+
     </dependencies>
 </project>
