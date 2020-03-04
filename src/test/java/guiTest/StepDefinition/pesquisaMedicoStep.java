@@ -3,6 +3,9 @@ package guiTest.StepDefinition;
 import cucumber.api.PendingException;
 import guiTest.Pages.pageUnimed;
 import cucumber.api.java.pt.*;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
 
 public class pesquisaMedicoStep {
 
@@ -11,34 +14,32 @@ public class pesquisaMedicoStep {
        pageUnimed.AcessaUrl(url);
     }
 
-
     @Dado("^navega para \"([^\"]*)\"$")
-    public void navega_para(String arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void navega_para(String nomeMenu) throws Throwable {
+       pageUnimed.AcessaItemMenuPrincipal(nomeMenu);
     }
 
-    @Quando("^pesquisa médicos na cidade \"([^\"]*)\"$")
-    public void pesquisa_médicos_na_cidade(String arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Quando("^pesquisa por \"([^\"]*)\" no estado \"([^\"]*)\" cidade \"([^\"]*)\"$")
+    public void pesquisa_por_no_estado_cidade(String tipoRcurso, String uf, String cidade) throws Throwable {
+        pageUnimed.PesquisaPorTipoRecurso_Uf_Cidade(tipoRcurso,uf,cidade);
     }
 
-    @Então("^o sistema exibe uma lista de medicos com \"([^\"]*)\"$")
-    public void o_sistema_exibe_uma_lista_de_medicos_com(String arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Então("^o sistema exibe o médico \"([^\"]*)\"$")
+    public void o_sistema_exibe_o_médico(String nomeMedico) throws Throwable {
+        pageUnimed.PesquisaNomeNoResultado(nomeMedico);
+        pageUnimed.validaQuantidadeDeResultado();
     }
 
-    @Então("^exibe a \"([^\"]*)\"$")
-    public void exibe_a(String arg1) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    @Então("^mostra a espcialidade \"([^\"]*)\"$")
+    public void mostra_a_espcialidade(String especialidade) throws Throwable {
+        pageUnimed.PesquisaEspecialidadeNoResultado(especialidade);
     }
+
+
 
     @Então("^o sistema não pode exibir a cidade de \"([^\"]*)\" nas \"([^\"]*)\" primeiras páginas$")
-    public void o_sistema_não_pode_exibir_a_cidade_de_nas_primeiras_páginas(String arg1, String arg2) throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+    public void o_sistema_não_pode_exibir_a_cidade_de_nas_primeiras_páginas(String cidade, int qtdPagina) throws Throwable {
+        pageUnimed.procuraCidadeResultado(cidade,qtdPagina);
     }
+
 }

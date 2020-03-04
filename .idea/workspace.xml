@@ -2,27 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc00e246-a85e-4fa5-8bd5-acdff8cff1a9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guiTest/Pages/pageUnimed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guiTest/Pages/pageUnimed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guiTest/StepDefinition/pesquisaMedicoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guiTest/StepDefinition/pesquisaMedicoStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Carrinho.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Carrinho.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Filme.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Filme.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/apiTest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiTest/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/apiTest/Constantes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiTest/Constantes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/apiTest/TestDesafio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiTest/TestDesafio2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/guiTest/TestRunner/TesteSelenium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/pesquisaMedico.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/pesquisaMedico.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/desafio1_2_3.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/desafio1_2_3.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/pesquisaMedico.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/pesquisaMedico.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/Pages/pageUnimed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guiTest/Pages/pageUnimed.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/StepDefinition/TestRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guiTest/StepDefinition/TestRule.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/StepDefinition/pesquisaMedicoStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guiTest/StepDefinition/pesquisaMedicoStep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/TestRunner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guiTest/TestRunner/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/TestRunner/TesteSelenium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guiTest/TestRunner/TesteSelenium.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTest/CarrinhoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unitTest/CarrinhoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTest/OlaMundo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unitTest/OlaMundo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/TestRunner/TesteSelenium.class" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/guiTest/StepDefinition/pesquisaMedicoStep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="40" column="94" selection-start-line="40" selection-start-column="94" selection-end-line="40" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/guiTest/Pages/pageUnimed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="117" column="17" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#pageUnimed#0;class#pageUnimed#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,10 +57,32 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>AcessaUrl</find>
+      <find>AcessaItemMenuPrincipal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/guiTest/StepDefinition/TestRule.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/pesquisaMedico.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/guiTest/StepDefinition/pesquisaMedicoStep.java" />
+        <option value="$PROJECT_DIR$/src/test/java/guiTest/Pages/pageUnimed.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="desafio1_2_3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
@@ -48,6 +93,94 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="desafio1_2_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio1_2_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desafio1_2_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio1_2_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desafio1_2_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio1_2_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desafio1_2_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio1_2_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desafio1_2_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio1_2_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guiTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desafio1_2_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio1_2_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desafio1_2_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio1_2_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="StepDefinition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desafio1_2_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio1_2_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="guiTest" type="462c0819:PsiDirectoryNode" />
+              <item name="TestRunner" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desafio1_2_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio1_2_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="desafio1_2_3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="desafio1_2_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -55,35 +188,40 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../javaAutomationCucumber" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\PROJETOS_GITHUB\desafio1_2_3\src\test\resources\features" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\PROJETOS_GITHUB\desafio1_2_3\src\main\resources" />
       <recent name="C:\PROJETOS_GITHUB\desafio1_2_3\src\test\resources" />
+      <recent name="C:\PROJETOS_GITHUB\desafio1_2_3\src\test\resources\testApi" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="guiTest.Pages" />
       <recent name="guiTest.TestRunner" />
       <recent name="guiTest.StepDefinition" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\PROJETOS_GITHUB\desafio1_2_3\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\PROJETOS_GITHUB\desafio1_2_3\src\test\resources\features" />
       <recent name="C:\PROJETOS_GITHUB\desafio1_2_3\src\test\resources" />
-      <recent name="C:\PROJETOS_GITHUB\desafio1_2_3\src\test\resources\testApi" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
   <component name="RunManager" selected="JUnit.Runner">
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <option name="GLUE" value="stepImplementations" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TesteSelenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="guiTest.TestRunner.TesteSelenium" />
       <module name="desafio1_2_3" />
@@ -93,6 +231,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <option name="GLUE" value="stepImplementations" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,7 +252,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="guiTest.TestRunner" />
       <option name="MAIN_CLASS_NAME" value="guiTest.TestRunner.Runner" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,7 +266,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="apiTest" />
       <option name="MAIN_CLASS_NAME" value="apiTest.TestDesafio2" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,11 +301,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.TesteSelenium" />
       <item itemvalue="JUnit.apiTest in desafio1_2_3" />
       <item itemvalue="JUnit.TestDesafio2" />
       <item itemvalue="JUnit.TestDesafio2.validaSchemaJson" />
       <item itemvalue="JUnit.Runner" />
-      <item itemvalue="Application.TesteSelenium" />
     </list>
     <recent_temporary>
       <list>
@@ -186,6 +329,65 @@
       <updated>1583127905909</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Runner - 2020.03.04 at 04h 37m 58s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2020.03.04 at 04h 41m 49s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2020.03.04 at 04h 45m 25s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2020.03.04 at 04h 48m 19s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2020.03.04 at 04h 59m 03s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2020.03.04 at 05h 00m 13s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2020.03.04 at 05h 10m 50s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2020.03.04 at 05h 14m 47s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2020.03.04 at 05h 17m 49s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2020.03.04 at 05h 41m 09s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32242227" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Maven" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="WindowStateProjectService">
     <state x="568" y="308" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583277662949">
@@ -233,20 +435,166 @@
     </state>
     <state x="426" y="38" key="refactoring.ChangeSignatureDialog/0.0.1440.839@0.0.1440.839" timestamp="1583278825367" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/guiTest/Pages/pageUnimed.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/guiTest/TestRunner/TesteSelenium.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar!/org/openqa/selenium/interactions/Actions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Timeout.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar!/cucumber/runtime/java/JavaStepDefinition.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/StepDefinitionMatch.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Runtime.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/model/CucumberScenario.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar!/cucumber/runtime/junit/ExecutionUnitRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar!/cucumber/runtime/junit/FeatureRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+          <folding>
+            <element signature="e#2343#2344#0" expanded="true" />
+            <element signature="e#2378#2379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="370" selection-start-line="370" selection-end-line="370" />
+          <folding>
+            <element signature="e#2922#2923#0" expanded="true" />
+            <element signature="e#2966#2967#0" expanded="true" />
+            <element signature="e#10310#10449#0" expanded="true" />
+            <element signature="e#10448#10449#0" expanded="true" />
+            <element signature="e#11040#11204#0" expanded="true" />
+            <element signature="e#11203#11204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar!/cucumber/api/junit/Cucumber.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="e#2698#2699#0" expanded="true" />
+            <element signature="e#2733#2734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/model/StepContainer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/guiTest/StepDefinition/TestRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="25" selection-start-line="25" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#747#748#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#826#827#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/pesquisaMedico.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar!/cucumber/runtime/Utils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/guiTest/StepDefinition/pesquisaMedicoStep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="40" column="94" selection-start-line="40" selection-start-column="94" selection-end-line="40" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/guiTest/Pages/pageUnimed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="117" column="17" selection-start-line="117" selection-start-column="17" selection-end-line="117" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#pageUnimed#0;class#pageUnimed#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
