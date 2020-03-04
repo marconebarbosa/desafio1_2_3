@@ -4,13 +4,11 @@ import cucumber.api.PendingException;
 import guiTest.Pages.pageUnimed;
 import cucumber.api.java.pt.*;
 
-
 public class pesquisaMedicoStep {
 
     @Dado("^que o usuário acessa o site \"([^\"]*)\"$")
     public void que_o_usuário_acessa_o_site(String url) {
-
-        pageUnimed.AcessaUrl(url);
+       pageUnimed.AcessaUrl(url);
     }
 
 

@@ -1,29 +1,27 @@
 package guiTest.Pages;
 
-import guiTest.TestRunner.TestRule;
+import guiTest.StepDefinition.TestRule;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
-
 
 
 public class pageUnimed {
 
-    //WebElement menuPrincipal = driver.findElement(By.id("menuPrincipal"));
-   // WebElement BuscaDetalhada = driver.findElement(By.id("busca_detalhada"));
-   // WebElement Unidade = driver.findElement(By.className("form-escolher-unimed-gm"));
+    //ELEMENTOS
+
 
     public pageUnimed(){
         PageFactory.initElements(TestRule.getDriver(),this);
-
     }
 
     public static void AcessaUrl(String url) {
-        TestRule.getDriver().get(url);
+     // Actions actions = new Actions(TestRule.getDriver());
+      TestRule.getDriver().get(url);
+      //TestRule.getDriver().//actions.click();
+       // test.getDriver().get(url);
     }
 
-    public static void clickGuiaMedico() {
-    }
 }
 
 
