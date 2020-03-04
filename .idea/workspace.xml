@@ -2,17 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc00e246-a85e-4fa5-8bd5-acdff8cff1a9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guiTest/Pages/pageUnimed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guiTest/Pages/pageUnimed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/guiTest/StepDefinition/pesquisaMedicoStep.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guiTest/StepDefinition/pesquisaMedicoStep.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guiTest/TestRunner/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guiTest/TestRunner/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guiTest/TestRunner/TestRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/guiTest/StepDefinition/TestRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/desafio1_2_3.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/desafio1_2_3.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Carrinho.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Carrinho.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Filme.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Filme.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apiTest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiTest/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apiTest/Constantes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiTest/Constantes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/apiTest/TestDesafio2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/apiTest/TestDesafio2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/Pages/pageUnimed.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guiTest/Pages/pageUnimed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/StepDefinition/TestRule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guiTest/StepDefinition/TestRule.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/StepDefinition/pesquisaMedicoStep.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guiTest/StepDefinition/pesquisaMedicoStep.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/TestRunner/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guiTest/TestRunner/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/TestRunner/TestRule.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/guiTest/TestRunner/TesteSelenium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/guiTest/TestRunner/TesteSelenium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTest/CarrinhoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unitTest/CarrinhoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unitTest/OlaMundo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/unitTest/OlaMundo.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,38 +196,38 @@
       <screen x="0" y="0" width="1440" height="839" />
     </state>
     <state x="516" y="279" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1440.839@0.0.1440.839" timestamp="1583282035457" />
-    <state width="1397" height="320" key="GridCell.Tab.0.bottom" timestamp="1583284598753">
+    <state width="1397" height="267" key="GridCell.Tab.0.bottom" timestamp="1583286230013">
       <screen x="0" y="0" width="1440" height="839" />
     </state>
-    <state width="1397" height="320" key="GridCell.Tab.0.bottom/0.0.1440.839@0.0.1440.839" timestamp="1583284598753" />
-    <state width="1397" height="320" key="GridCell.Tab.0.center" timestamp="1583284598753">
+    <state width="1397" height="267" key="GridCell.Tab.0.bottom/0.0.1440.839@0.0.1440.839" timestamp="1583286230013" />
+    <state width="1397" height="267" key="GridCell.Tab.0.center" timestamp="1583286230013">
       <screen x="0" y="0" width="1440" height="839" />
     </state>
-    <state width="1397" height="320" key="GridCell.Tab.0.center/0.0.1440.839@0.0.1440.839" timestamp="1583284598753" />
-    <state width="1397" height="320" key="GridCell.Tab.0.left" timestamp="1583284598753">
+    <state width="1397" height="267" key="GridCell.Tab.0.center/0.0.1440.839@0.0.1440.839" timestamp="1583286230013" />
+    <state width="1397" height="267" key="GridCell.Tab.0.left" timestamp="1583286230013">
       <screen x="0" y="0" width="1440" height="839" />
     </state>
-    <state width="1397" height="320" key="GridCell.Tab.0.left/0.0.1440.839@0.0.1440.839" timestamp="1583284598753" />
-    <state width="1397" height="320" key="GridCell.Tab.0.right" timestamp="1583284598753">
+    <state width="1397" height="267" key="GridCell.Tab.0.left/0.0.1440.839@0.0.1440.839" timestamp="1583286230013" />
+    <state width="1397" height="267" key="GridCell.Tab.0.right" timestamp="1583286230013">
       <screen x="0" y="0" width="1440" height="839" />
     </state>
-    <state width="1397" height="320" key="GridCell.Tab.0.right/0.0.1440.839@0.0.1440.839" timestamp="1583284598753" />
-    <state width="1397" height="267" key="GridCell.Tab.1.bottom" timestamp="1583281999687">
+    <state width="1397" height="267" key="GridCell.Tab.0.right/0.0.1440.839@0.0.1440.839" timestamp="1583286230013" />
+    <state width="1397" height="267" key="GridCell.Tab.1.bottom" timestamp="1583286230013">
       <screen x="0" y="0" width="1440" height="839" />
     </state>
-    <state width="1397" height="267" key="GridCell.Tab.1.bottom/0.0.1440.839@0.0.1440.839" timestamp="1583281999687" />
-    <state width="1397" height="267" key="GridCell.Tab.1.center" timestamp="1583281999687">
+    <state width="1397" height="267" key="GridCell.Tab.1.bottom/0.0.1440.839@0.0.1440.839" timestamp="1583286230013" />
+    <state width="1397" height="267" key="GridCell.Tab.1.center" timestamp="1583286230013">
       <screen x="0" y="0" width="1440" height="839" />
     </state>
-    <state width="1397" height="267" key="GridCell.Tab.1.center/0.0.1440.839@0.0.1440.839" timestamp="1583281999687" />
-    <state width="1397" height="267" key="GridCell.Tab.1.left" timestamp="1583281999687">
+    <state width="1397" height="267" key="GridCell.Tab.1.center/0.0.1440.839@0.0.1440.839" timestamp="1583286230013" />
+    <state width="1397" height="267" key="GridCell.Tab.1.left" timestamp="1583286230013">
       <screen x="0" y="0" width="1440" height="839" />
     </state>
-    <state width="1397" height="267" key="GridCell.Tab.1.left/0.0.1440.839@0.0.1440.839" timestamp="1583281999687" />
-    <state width="1397" height="267" key="GridCell.Tab.1.right" timestamp="1583281999687">
+    <state width="1397" height="267" key="GridCell.Tab.1.left/0.0.1440.839@0.0.1440.839" timestamp="1583286230013" />
+    <state width="1397" height="267" key="GridCell.Tab.1.right" timestamp="1583286230013">
       <screen x="0" y="0" width="1440" height="839" />
     </state>
-    <state width="1397" height="267" key="GridCell.Tab.1.right/0.0.1440.839@0.0.1440.839" timestamp="1583281999687" />
+    <state width="1397" height="267" key="GridCell.Tab.1.right/0.0.1440.839@0.0.1440.839" timestamp="1583286230013" />
     <state x="426" y="38" key="refactoring.ChangeSignatureDialog" timestamp="1583278825367">
       <screen x="0" y="0" width="1440" height="839" />
     </state>
@@ -233,7 +238,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/guiTest/Pages/pageUnimed.java</url>
-          <line>14</line>
+          <line>23</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

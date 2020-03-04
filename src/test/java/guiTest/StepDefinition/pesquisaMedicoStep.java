@@ -7,7 +7,7 @@ import cucumber.api.java.pt.*;
 public class pesquisaMedicoStep {
 
     @Dado("^que o usuário acessa o site \"([^\"]*)\"$")
-    public void que_o_usuário_acessa_o_site(String url) {
+    public void que_o_usuário_acessa_o_site(String url) throws InterruptedException {
        pageUnimed.AcessaUrl(url);
     }
 
