@@ -109,8 +109,6 @@ public class pageUnimed {
     public static void procuraCidadeResultado(String cidade,int qtdPagina) throws InterruptedException {
         Thread.sleep(tempoMedioEspera);
 
-
-
         for(int i=1;i<=qtdPagina;i++) {
 
             List<WebElement> elements =TestRule.getDriver().findElements(By.id("txt_endereco"));

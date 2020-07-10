@@ -10,6 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "guiTest.StepDefinition",
         plugin = "pretty",
+        tags = "@TestGui",
         monochrome = true
         )
 
